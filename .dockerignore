@@ -1,0 +1,72 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+bun.lockb
+
+# Environment files
+.env
+.env.local
+.env.server
+.env.*.local
+
+# Build outputs
+dist
+build
+.vite
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Tests
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+__tests__
+coverage
+
+# CI/CD
+.github
+.kiro
+
+# Frontend files (not needed for backend)
+src/components
+src/pages
+src/assets
+src/hooks
+src/contexts
+src/i18n
+public
+index.html
+vite.config.ts
+tailwind.config.ts
+postcss.config.js
+components.json
+
+# Lambda
+lambda/*.zip
+lambda/dist
+
+# Misc
+*.log
+.eslintrc*
+.prettierrc*
