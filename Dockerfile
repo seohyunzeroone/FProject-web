@@ -23,8 +23,8 @@ COPY src/services/ ./src/services/
 COPY src/types/ ./src/types/
 COPY database/ ./database/
 
-# Build TypeScript to JavaScript
-RUN npx tsc --project tsconfig.json
+# Build TypeScript to JavaScript (using server-specific config)
+RUN npx tsc --project tsconfig.server.json
 
 # -----------------------------------------------------------------------------
 # Stage 2: Production
