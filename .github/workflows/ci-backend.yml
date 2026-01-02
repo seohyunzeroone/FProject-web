@@ -10,6 +10,7 @@ on:
       - 'src/types/**'
       - 'database/**'
       - 'Dockerfile'
+      - 'tsconfig.server.json'
       - '.github/workflows/ci-backend.yml'
   pull_request:
     branches:
