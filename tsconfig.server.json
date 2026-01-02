@@ -16,7 +16,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noEmitOnError": false,
-    "suppressImplicitAnyIndexErrors": true,
     "noImplicitThis": false,
     "strictNullChecks": false,
     "strictPropertyInitialization": false,
