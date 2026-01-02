@@ -341,7 +341,7 @@ export async function createInquiry(
   res.status(201).json({
     success: true,
     data: inquiry,
-    message: `Inquiry created successfully. Inquiry ID: ${inquiry.inquiryId}`,
+    message: `Inquiry created successfully. Inquiry ID: ${inquiry.inquiry_id}`,
   });
 }
 

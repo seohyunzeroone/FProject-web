@@ -117,7 +117,7 @@ class CognitoService {
         (err, result) => {
           if (err) {
             console.error('🔴 회원가입 실패:', err);
-            console.error('🔴 에러 코드:', err.code);
+            console.error('🔴 에러 코드:', (err as any).code);
             console.error('🔴 에러 메시지:', err.message);
             reject(err);
             return;
